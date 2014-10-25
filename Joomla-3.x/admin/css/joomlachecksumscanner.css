@@ -1,0 +1,85 @@
+/**
+ * JCS - Joomla Checksum Scanner for Joomal! 3.x
+ * License: GNU/GPL - http://www.gnu.org/licenses/gpl.html
+ * Author: Viktor Vogel
+ * Project page: http://joomla-extensions.kubik-rubik.de/jcs-joomla-checksum-scanner
+ *
+ * @license GNU/GPL
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+.icon-joomlachecksumscanner:before {
+    content: "\e018";
+}
+
+.icon-joomlachecksumscanner-add:before {
+    content: "\5d"
+}
+
+.icon-joomlachecksumscanner-success:before {
+    content: "\47";
+}
+
+.icon-joomlachecksumscanner-error:before {
+    content: "\49"
+}
+
+.icon-back:before {
+    content: "\21"
+}
+
+fieldset ul.adminformlist {
+    display: table;
+}
+
+fieldset.adminform textarea {
+    width: 410px !important;
+}
+
+fieldset.adminform label {
+    width: 230px !important;
+}
+
+.overwrite_notice {
+    background-color: #FCFA76;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+select#snapshotscan, select#archivescan_snapshot {
+    margin-bottom: 0px;
+}
+
+div#checksum-scanner-type-selection {
+    margin-bottom: 50px;
+}
+
+div#checksum-scanner-type-selection-snapshots {
+    margin-bottom: 30px;
+}
+
+div#checksum-scanner-type-selection-archive {
+    /*filter: Alpha(opacity=50);
+    opacity: 0.5;
+    background-color: white;*/
+}
+
+div#loading_snapshotscan {
+    margin-top: 14px;
+}
+
+div#loading_snapshotscan strong {
+    padding-top: 2px;
+    position: absolute;
+}

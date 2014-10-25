@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<access component="com_joomlachecksumscanner">
+    <section name="component">
+        <action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+        <action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+        <action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+        <action name="joomlachecksumscanner.snapshotcreate" title="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_SNAPSHOTCREATE" description="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_SNAPSHOTCREATEDESC" />
+        <action name="joomlachecksumscanner.snapshotscan" title="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_SNAPSHOTSCAN" description="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_SNAPSHOTSCANDESC" />
+        <action name="joomlachecksumscanner.scanresult" title="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_SCANRESULT" description="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_SCANRESULTDESC" />
+        <action name="joomlachecksumscanner.countfiles" title="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_COUNTFILES" description="COM_JOOMLACHECKSUMSCANNER_PERMISSIONS_COUNTFILESDESC" />
+    </section>
+</access>

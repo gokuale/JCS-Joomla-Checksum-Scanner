@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.3" method="upgrade">
+    <name>COM_JOOMLACHECKSUMSCANNER</name>
+    <version>3-1</version>
+    <creationDate>2014-09-16</creationDate>
+    <license>http://www.gnu.org/licenses/gpl-3.0</license>
+    <copyright>Copyright 2014 Viktor Vogel. All rights reserved.</copyright>
+    <author>Viktor Vogel</author>
+    <authorEmail>admin@kubik-rubik.de</authorEmail>
+    <authorUrl>http://joomla-extensions.kubik-rubik.de/</authorUrl>
+    <description>COM_JOOMLACHECKSUMSCANNER_XML_DESCRIPTION</description>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.sql</file>
+        </sql>
+    </install>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <files folder="site">
+        <filename>index.html</filename>
+    </files>
+    <administration>
+        <menu img="components/com_joomlachecksumscanner/images/jcs-menu.png">COM_JOOMLACHECKSUMSCANNER</menu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>joomlachecksumscanner.php</filename>
+            <filename>controller.php</filename>
+            <filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <folder>controllers</folder>
+            <folder>css</folder>
+            <folder>helpers</folder>
+            <folder>images</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_joomlachecksumscanner.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_joomlachecksumscanner.sys.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.com_joomlachecksumscanner.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.com_joomlachecksumscanner.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
