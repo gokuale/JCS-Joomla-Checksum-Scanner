@@ -1,4 +1,6 @@
-JCS-Joomla-Checksum-Scanner
+JCS - Joomla Checksum Scanner
 ===========================
 
-  Repository for LLFJ - Plugin for Joomla! - Kubik-Rubik Joomla! Extensions http://joomla-extensions.kubik-rubik.de/jcs-joomla-checksum-scanner
+Repository for JCS - Component for Joomla! - Kubik-Rubik Joomla! Extensions 
+
+Project page: http://joomla-extensions.kubik-rubik.de/jcs-joomla-checksum-scanner
